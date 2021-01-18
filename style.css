@@ -35,9 +35,22 @@ body {
     box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.buttons {}
+#steps {
+    font-family: Droid Sans Mono;
+    width: 410px;
+    text-align: right;
+    font-size: 52px;
+    margin:-9px;
+    padding-top: 19%;
+  }
+  
+.buttons {
+    display: block;
+}
 
-.operators {}
+.operators {
+    display: inline;
+}
 
 .operators div {
     display: inline-block;
